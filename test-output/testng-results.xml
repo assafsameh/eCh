@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13296" started-at="2019-07-17T16:54:36Z" finished-at="2019-07-17T16:54:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13296" started-at="2019-07-17T16:54:36Z" finished-at="2019-07-17T16:54:49Z">
+      <class name="logInTest.LogInTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="startUp" is-config="true" duration-ms="12700" started-at="2019-07-17T16:54:23Z" finished-at="2019-07-17T16:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="LogIn" is-config="true" duration-ms="1638" started-at="2019-07-17T16:54:36Z" finished-at="2019-07-17T16:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="beforeMethod" is-config="true" duration-ms="23" started-at="2019-07-17T16:54:38Z" finished-at="2019-07-17T16:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void logInTest.LogInTest.LogInVerifyElementAttribute()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LogInVerifyElementAttribute()[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="LogInVerifyElementAttribute" duration-ms="277" started-at="2019-07-17T16:54:38Z" finished-at="2019-07-17T16:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInVerifyElementAttribute -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-17T16:54:38Z" finished-at="2019-07-17T16:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInVerifyElementAttribute status=SUCCESS method=LogInTest.LogInVerifyElementAttribute()[pri:0, instance:logInTest.LogInTest@6e0e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2019-07-17T16:54:38Z" finished-at="2019-07-17T16:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void logInTest.LogInTest.LogInApply()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LogInApply()[pri:1, instance:logInTest.LogInTest@6e0e048a]" name="LogInApply" duration-ms="11297" started-at="2019-07-17T16:54:38Z" finished-at="2019-07-17T16:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInApply -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-17T16:54:49Z" finished-at="2019-07-17T16:54:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInApply status=SUCCESS method=LogInTest.LogInApply()[pri:1, instance:logInTest.LogInTest@6e0e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearLogInPage()[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="tearLogInPage" is-config="true" duration-ms="0" started-at="2019-07-17T16:54:49Z" finished-at="2019-07-17T16:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearLogInPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:logInTest.LogInTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="692" started-at="2019-07-17T16:54:49Z" finished-at="2019-07-17T16:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- logInTest.LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
